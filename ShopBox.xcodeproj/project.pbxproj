@@ -20,6 +20,7 @@
 		402747C31B2EC1C8003F8DFE /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402747C21B2EC1C8003F8DFE /* UIManager.swift */; };
 		402747C51B2EC2C2003F8DFE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402747C41B2EC2C2003F8DFE /* Extension.swift */; };
 		402747C71B2EC2EC003F8DFE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402747C61B2EC2EC003F8DFE /* Theme.swift */; };
+		402747CB1B2ED0FE003F8DFE /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 402747CA1B2ED0FE003F8DFE /* Readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		402747C21B2EC1C8003F8DFE /* UIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
 		402747C41B2EC2C2003F8DFE /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		402747C61B2EC2EC003F8DFE /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		402747CA1B2ED0FE003F8DFE /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		4027478A1B2EB3EF003F8DFE = {
 			isa = PBXGroup;
 			children = (
+				402747CA1B2ED0FE003F8DFE /* Readme */,
 				402747951B2EB3EF003F8DFE /* ShopBox */,
 				402747AD1B2EB3EF003F8DFE /* ShopBoxTests */,
 				402747941B2EB3EF003F8DFE /* Products */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402747CB1B2ED0FE003F8DFE /* Readme in Resources */,
 				402747BF1B2EBED7003F8DFE /* Login.storyboard in Resources */,
 				402747A01B2EB3EF003F8DFE /* Main.storyboard in Resources */,
 				402747A51B2EB3EF003F8DFE /* LaunchScreen.xib in Resources */,
