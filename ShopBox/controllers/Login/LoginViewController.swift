@@ -16,6 +16,10 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func clickLogin(sender: AnyObject) {
+        UIManager.sharedManager.jumpToHomePage()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

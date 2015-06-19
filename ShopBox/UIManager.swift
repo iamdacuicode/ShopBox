@@ -31,10 +31,11 @@ class UIManager : NSObject {
     }
     
     func jumpToHomePage() {
+        isLogin = true
         let mainStory = UIStoryboard(name: "Main", bundle: nil)
-//        let view = mainStory.instantiateInitialViewController() as! ECSlidingViewController
+        let view = mainStory.instantiateInitialViewController() as! UITabBarController
         
-//        window?.rootViewController = view
+        window?.rootViewController = view
     }
     
     func jumpToWelcomeView() {
