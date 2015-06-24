@@ -76,7 +76,7 @@ class HomeViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCellWithIdentifier(Storyboard.CellReuseIdentifier, forIndexPath: indexPath) as!HomeTableCell
         
-        cell.titleLab.text = productNameList[indexPath.section]
+        cell.titleLab.text = productNameList[indexPath.row]
         
         // Configure the cell...
 
