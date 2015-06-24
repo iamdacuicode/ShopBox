@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         UIManager.sharedManager.window = window
-        window?.backgroundColor = UIColor.whiteColor()
+        window!.backgroundColor = UIColor.whiteColor()
         return true
     }
 

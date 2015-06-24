@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400502E21B398041007D57E4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400502E11B398041007D57E4 /* HomeViewController.swift */; };
+		400502E41B39C00E007D57E4 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400502E31B39C00E007D57E4 /* HomeTableCell.swift */; };
 		402747991B2EB3EF003F8DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402747981B2EB3EF003F8DFE /* AppDelegate.swift */; };
 		4027479B1B2EB3EF003F8DFE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4027479A1B2EB3EF003F8DFE /* FirstViewController.swift */; };
 		4027479D1B2EB3EF003F8DFE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4027479C1B2EB3EF003F8DFE /* SecondViewController.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		400502E11B398041007D57E4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		400502E31B39C00E007D57E4 /* HomeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
 		402747931B2EB3EF003F8DFE /* ShopBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402747971B2EB3EF003F8DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		402747981B2EB3EF003F8DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,10 +139,12 @@
 		402747BC1B2EBEB4003F8DFE /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				400502E11B398041007D57E4 /* HomeViewController.swift */,
 				4027479A1B2EB3EF003F8DFE /* FirstViewController.swift */,
 				4027479C1B2EB3EF003F8DFE /* SecondViewController.swift */,
 				402747BA1B2EB562003F8DFE /* ThirdViewController.swift */,
 				402747BD1B2EBEB4003F8DFE /* Login */,
+				400502E31B39C00E007D57E4 /* HomeTableCell.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 				4027479D1B2EB3EF003F8DFE /* SecondViewController.swift in Sources */,
 				402747C71B2EC2EC003F8DFE /* Theme.swift in Sources */,
 				402747991B2EB3EF003F8DFE /* AppDelegate.swift in Sources */,
+				400502E41B39C00E007D57E4 /* HomeTableCell.swift in Sources */,
 				402747C51B2EC2C2003F8DFE /* Extension.swift in Sources */,
 				402747BB1B2EB562003F8DFE /* ThirdViewController.swift in Sources */,
+				400502E21B398041007D57E4 /* HomeViewController.swift in Sources */,
 				402747C11B2EC0E6003F8DFE /* LoginViewController.swift in Sources */,
 				4027479B1B2EB3EF003F8DFE /* FirstViewController.swift in Sources */,
 				402747C31B2EC1C8003F8DFE /* UIManager.swift in Sources */,
@@ -388,10 +396,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShopBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -399,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShopBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -459,6 +470,7 @@
 				402747B61B2EB3EF003F8DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		402747B71B2EB3EF003F8DFE /* Build configuration list for PBXNativeTarget "ShopBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +479,7 @@
 				402747B91B2EB3EF003F8DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
