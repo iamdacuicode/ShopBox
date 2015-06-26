@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8BB73ECA-00E6-43E1-94C6-A5F66D47C32A</string>
+	<string>651D552D-52C7-49DE-87D6-F20C5693D1E3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ShopBox</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>25C4073A7F9C5BC493AD4BB9D78839BCD3A6D790</key>
 		<string>https://github.com/shuideya/ShopBox.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ShopBox.xcodeproj/project.xcworkspace</string>
+	<string>ShopBox.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>25C4073A7F9C5BC493AD4BB9D78839BCD3A6D790</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/shuideya/ShopBox.git</string>
