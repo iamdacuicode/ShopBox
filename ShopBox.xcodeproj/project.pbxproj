@@ -23,6 +23,7 @@
 		402747C51B2EC2C2003F8DFE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402747C41B2EC2C2003F8DFE /* Extension.swift */; };
 		402747C71B2EC2EC003F8DFE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402747C61B2EC2EC003F8DFE /* Theme.swift */; };
 		402747CF1B2ED3CE003F8DFE /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 402747CE1B2ED3CE003F8DFE /* Readme */; };
+		40DAC4D61B3EE5E10074D9AA /* ProductInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DAC4D51B3EE5E10074D9AA /* ProductInfoViewController.swift */; };
 		D43B136800CFCCFDA4E044CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 377A50D2D38E8C8221330390 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		402747C41B2EC2C2003F8DFE /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		402747C61B2EC2EC003F8DFE /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		402747CE1B2ED3CE003F8DFE /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		40DAC4D51B3EE5E10074D9AA /* ProductInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfoViewController.swift; sourceTree = "<group>"; };
 		5805A0C15557EDFB8D5F3C77 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B63FCCCE4AE9F68B0705BD2F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				400502E11B398041007D57E4 /* HomeViewController.swift */,
+				40DAC4D51B3EE5E10074D9AA /* ProductInfoViewController.swift */,
 				4027479A1B2EB3EF003F8DFE /* FirstViewController.swift */,
 				4027479C1B2EB3EF003F8DFE /* SecondViewController.swift */,
 				402747BA1B2EB562003F8DFE /* ThirdViewController.swift */,
@@ -327,6 +330,7 @@
 				402747BB1B2EB562003F8DFE /* ThirdViewController.swift in Sources */,
 				400502E21B398041007D57E4 /* HomeViewController.swift in Sources */,
 				402747C11B2EC0E6003F8DFE /* LoginViewController.swift in Sources */,
+				40DAC4D61B3EE5E10074D9AA /* ProductInfoViewController.swift in Sources */,
 				4027479B1B2EB3EF003F8DFE /* FirstViewController.swift in Sources */,
 				402747C31B2EC1C8003F8DFE /* UIManager.swift in Sources */,
 			);
